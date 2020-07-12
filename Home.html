@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +7,24 @@
     <title>Home page - Group4_Assignment2</title>
     <style>
 
+
         body {
             background-image: radial-gradient( circle farthest-corner at 78% 59.3%, rgba(255,104,104,1) 0%, rgba(230,127,41,1) 90% );
         }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
 
     </style>
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -17,108 +32,49 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-    <a href="#news">Maxican</a>
-  <a href="#news">Japanese</a>
-  <a href="#contact">Indian</a>
-  <a href="#about">Beers</a>
-</div>
-    <div class="container">
-        <main role="main" class="pb-3">
-            
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Kitchen Mondyal</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-    <style>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="Mexican.html">Mexican</a>
+        <a href="Japanese.html">Japanese</a>
+        <a href="Indian.html">Indian</a>
+        <a href="Beer_main/index2.html">Beers</a>
+        <a href="AboutUs.html">About Us</a>
+    </div>
+    <div class="w3-container w3-teal">
+        <h1>World's Famous Cuisines</h1>
+        <p> Explore the Best of world Cuisine with special recommendations from our very own cohort of MS-BAIS 2020.</p>
+    </div>
 
-        body, h1, h2, h3, h4, h5, h6 {
-            font-family: "Karma", sans-serif
-        }
-
-        .w3-bar-block .w3-bar-item {
-            padding: 20px
-        }
-        #header-core {
-            background: #a1b2e5;
-      }
-  /* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-    </style>
-</head>
-<body>
-
-    <!-- Sidebar (hidden by default)-->
-    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()"
-           class="w3-bar-item w3-button">Close Menu</a>
-        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-    </nav>
-    <!-- Top menu
-    <div class="w3-top">
-        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-            <div class="w3-right w3-padding-16">Mail</div>
-            <div class="w3-center w3-padding-16">My Food</div>
-        </div>
-    </div> -->
     <!-- !PAGE CONTENT! -->
-    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+    <div class="w3-main w3-content w3-padding" style="max-width:80%;margin-top:50px">
 
         <!-- First Photo Grid-->
         <div class="w3-row-padding w3-padding-16 w3-center" id="food">
             <div class="w3-quarter">
-                <a href=""><img src="Home_imgs/Mexican.jpg" alt="Mexican" style="width:100%"></a>
+                <a href="Mexican.html"><img src="Home_imgs/Mexican.jpg" alt="Mexican" style="width:100%"></a>
+                <h2>Mexican Delights</h2>
                 <h3>Let’s give them something to taco ‘bout</h3>
                 <p>Why be sad in a world that has tacos? Beans and rice and everything nice.Show them you care. Bring tacos.</p>
             </div>
             <div class="w3-quarter">
-                <a href=""><img src="Home_imgs/Japs.jpg" alt="Japanese" style="width:100%"></a>
-                    <h3>Invented in Japan, Perfected in Tampa. Your feast from the East</h3>
-                    <p>Your sushi sanctuary. Fresh fish in every dish. Singing to a different tune-a</p>
-</div>
+                <a href="Japanese.html"><img src="Home_imgs/Japs.jpg" alt="Japanese" style="width:100%"></a>
+                <h2>Sushi On</h2>
+                <h3>Invented in Japan, Perfected in Tampa. Your feast from the East</h3>
+                <p>Your sushi sanctuary. Fresh fish in every dish. Singing to a different tune-a</p>
+            </div>
             <div class="w3-quarter">
-                <a href="/Indian"><img src="Home_imgs/Indian.jpg" alt="Indian" style="width:100%"></a>
-                    <h3>When you're looking to spice things up a bit..</h3>
-                    <p>The taste of India. Wait no more, for your favorite Spices from India</p>
-                    <p>Its Hot!</p>
-</div>
+                <a href="Indian.html"><img src="Home_imgs/Indian.jpg" alt="Indian" style="width:100%"></a>
+                <h2>Indian Delicacies</h2>
+                <h3>When you're looking to spice things up a bit..</h3>
+                <p>The taste of India. Wait no more, for your favorite Spices from India</p>
+                <p>Its Hot!</p>
+            </div>
             <div class="w3-quarter">
                 <a href="Beer_main/index2.html"><img src="Home_imgs/Beer.jpg" alt="Beer" style="width:100%"></a>
-                    <h3>Beauty is in the eye of the BEER holder.</h3>
-                    <p>Something Old, Something New, Something Borrowed, and Something Brewed. Why limit happy to an hour?</p>
-</div>
+                <h2>Beer-Wisers</h2>
+                <h3>Beauty is in the eye of the BEER holder.</h3>
+                <p>Something Old, Something New, Something Borrowed, and Something Brewed. Why limit happy to an hour?</p>
+            </div>
         </div>
 
 
@@ -135,17 +91,11 @@
             document.getElementById("mySidebar").style.display = "none";
         }</script>
 
-</body>
-</html>
 
-
-
-        </main>
-    </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; MSBAIS-2020 Group4 Assignment 2 - <a href="/Privacy">Privacy</a>
+            &copy; MSBAIS-2020 Group4 Assignment 2 - <a href="AboutUs.html">About Us</a>
         </div>
     </footer>
 </body>
