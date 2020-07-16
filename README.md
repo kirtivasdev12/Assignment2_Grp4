@@ -6,6 +6,6 @@ This was a fun and engaging assignment learning about CSS and the impact it has 
 
 Kirti - 
 
-Bibhas - 
+Bibhas - This was a wonderful opportunity to design a GUI for fod lovers. Professor was right when he said that once we get into working with HTMLs and Css, time just flew and there was always an opportunity to make it look prettier and better. Thankfully, we all agreed to a consistent design and we were able to finish.
 
 Laura - 
